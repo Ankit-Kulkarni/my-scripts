@@ -1,0 +1,31 @@
+=====Command to create new git repo
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Ankit--Kulkarni/test.git
+git push -u origin master
+================================
+command to remove fast forward error
+
+>> git pull origin branch_name
+
+or 
+
+>> git push origin --force
+================================
+
+Changing username
+
+change one time for single commit
+>> git commit --amend --author "New Author Name <email@address.com>" 
+
+change for more frequent commits 
+
+>> git config --global user.name "you name"
+>> git config --global user.email you@domain.com
+>> git commit --amend --reset-author
+
+==================================

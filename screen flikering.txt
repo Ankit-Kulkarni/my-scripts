@@ -1,0 +1,14 @@
+By linux fan
+
+
+
+Several reviews have focused on the backlight problem in samsung laptops with ubuntu or its variants.
+
+Solution: Install samsung tools ppa.
+
+sudo add-apt-repository ppa:voria/ppa via terminal. Remember to update with 
+sudo apt-get update && sudo apt-get upgrade via terminal.
+
+Install packages samsung-backlight, samsung-tools. Reboot system to have all changes applied. Enjoy !
+
+The multi touch trackpad works like a charm on samsung laptops with Ubuntu 12.04, 12.10 and its variants. try it out !
