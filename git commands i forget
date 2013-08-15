@@ -29,3 +29,5 @@ change for more frequent commits
 >> git commit --amend --reset-author
 
 ==================================
+to checkout the master branch and move to a new branch experimental to work on
+>> git checkout -b experimental origin/experimental
