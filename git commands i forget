@@ -29,5 +29,17 @@ change for more frequent commits
 >> git commit --amend --reset-author
 
 ==================================
+to check the all branches at remote.
+>> git branch -a
+
+
 to checkout the master branch and move to a new branch experimental to work on
 >> git checkout -b experimental origin/experimental
+
+===================================
+git password caching
+
+>> git config --global credential.helper cache
+>> git config --global credential.helper 'cache --timeout=3600'    #3600 is in seconds.
+
+
