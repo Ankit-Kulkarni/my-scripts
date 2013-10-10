@@ -43,3 +43,18 @@ git password caching
 >> git config --global credential.helper 'cache --timeout=3600'    #3600 is in seconds.
 
 
+===================================
+
+git command to untrack a file 
+
+>> git rm --cache path to file
+
+==================================
+
+git command to make the working directory clean of untracked files
+
+>> git clean -f
+
+# command to see what will be removed after git clean.
+
+>> git clean --dry-run
