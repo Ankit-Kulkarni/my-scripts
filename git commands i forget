@@ -58,3 +58,11 @@ git command to make the working directory clean of untracked files
 # command to see what will be removed after git clean.
 
 >> git clean --dry-run
+
+===================================
+# check the heads in the commit log.
+
+>> git reflog
+
+===================================
+
