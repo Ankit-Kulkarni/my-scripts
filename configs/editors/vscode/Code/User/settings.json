@@ -1,0 +1,17 @@
+{
+    "window.menuBarVisibility": "default",
+    "python.linting.enabled": false,
+    "python.formatting.formatOnSave": true,
+    "editor.rulers": [
+        78,90
+    ],
+    "workbench.colorTheme": "Base16 Dark Woodland",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": -1,
+    "material-icon-theme.showUpdateMessage": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderIndentGuides": false,
+    "slack.teamToken": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "slack.username": "@ankit",
+    "slack.avatarUrl": "https://ca.slack-edge.com/T30UM9GAZ-U30UP03E1-gefb2c23b267-512"
+}
